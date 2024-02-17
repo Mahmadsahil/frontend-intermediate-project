@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxCont{
+    height: 70vh;
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+
+.box{
+    height: 8rem;
+    width: 8rem;
+    border: 2px solid; 
+    margin:0rem .8rem;
+}
+
+.greenColor{
+    background-color: green;
+}
